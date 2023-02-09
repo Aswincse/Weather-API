@@ -1,0 +1,41 @@
+
+body {
+    background-image: url("https://www.adventurebikerider.com/wp-content/uploads/2017/10/tumblr_o27c7fByaO1tchrkco1_500.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont{
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+}
+button{
+    margin-left: 10px;
+    width: 85px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid white;
+}
+.tab
+{
+    background-color: black;
+    color: white;
+}
+.ali
+{
+    display: flex;
+    justify-content: center;
+}

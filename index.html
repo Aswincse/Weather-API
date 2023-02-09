@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Finder</title>
+  <link rel="stylesheet" href="script.css">
+</head>
+<body>
+  <h1 style="text-align: center; color: white; background:black; margin: 0 auto;" >Weather Finder</h1>
+ <div class="cont">
+  <input type="text" id="city" placeholder="Enter a city">
+  <button id="btn" onclick="displayresult()">Submit</button>
+ </div>
+ <div class="ali">
+ <table class="tab" border="1" cellspacing="0" cellpadding="10"> 
+    <tr>
+ <td>Current Temperature: </td>
+<td id="output1"></td>
+</tr>
+<tr>
+<td>Weather:</td>
+<td id="output2"></td>
+</tr>
+<tr>
+<td>Min Temperature:</td>
+<td id="output3"></td>
+</tr>
+<tr>
+<td>Max Temperature:</td>
+<td id="output4"></td>
+</tr>
+<tr>
+<td>Pressure:</td>
+<td id="output5"></td>
+</tr>
+<tr>
+<td>Humidity:</td>
+<td id="output6"></td>
+</tr>
+<tr>
+<td>Sea level:</td>
+<td id="output7"></td>
+</tr>
+<tr>
+<td>Ground Level:</td>
+<td id="output8"></td>
+</tr>
+</table>
+ </div>
+<script src="api.js"></script>
+    </body>
+</html>
